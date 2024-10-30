@@ -1,0 +1,24 @@
+{
+  "users": {
+    "$user_id": {
+      "username": "string",
+      "email": "string"
+    }
+  },
+  "translations": {
+    "$translation_id": {
+      "user_id": "string",
+      "timestamp": "timestamp",
+      "full_text": "string",
+      "signs": {
+        "$sign_id": true
+      }
+    }
+  },
+  "asl_signs": {
+    "$sign_id": {
+      "sign_text": "string",
+      "sign_image_url": "string"
+    }
+  }
+}

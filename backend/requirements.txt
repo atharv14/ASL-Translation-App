@@ -1,4 +1,35 @@
-Flask==2.0.1
-numpy==1.21.0
-opencv-python==4.5.3.56
-tensorflow==2.5.0
+# Web framework
+Flask==2.3.2
+
+# Database
+firebase-admin==6.2.0
+
+# AI and Machine Learning
+tensorflow==2.17.0
+numpy==2.1.1
+Pillow==10.0.0
+
+# Image processing
+# opencv-python-headless==4.8.0.74
+
+# Testing
+pytest==7.4.0
+pytest-mock==3.11.1
+
+# API
+Werkzeug==2.3.6
+
+# Data handling
+pandas==2.0.3
+
+# Environment management
+python-dotenv==1.0.0
+
+# WSGI server (for production)
+gunicorn==21.2.0
+
+# Security
+Flask-Cors==4.0.0
+
+# Performance monitoring (optional)
+newrelic==8.8.0

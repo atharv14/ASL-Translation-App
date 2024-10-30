@@ -14,6 +14,11 @@ __pycache__/
 venv/
 env/
 
+# Extras
+MS-ASL/
+MS-ASL.zip
+MSASL_classes.json
+
 # IDEs
 .idea/
 .vscode/
